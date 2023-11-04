@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #353597;
+  --secondary-color: #000;
+  --bg-color: #fff;
+  --shadow: #00000046;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+}
+
+button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+button {
+  border: none;
+}
